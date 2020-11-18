@@ -1,0 +1,29 @@
+class Customer{
+id;
+name;
+account;
+constructor(id,name,account)
+{
+this.id=id;
+this.name=name;
+this.account=account;
+}
+toString()
+{
+let text=this.id+" "+this.name+" "+this.account;
+return text;
+}
+class Account extends Customer
+{
+balance;
+super(id,name,account)
+this.balance=balance;
+}
+toString()
+{
+let text=this.id+" "+this.name+" "+this.account+" "+this.balance=balance;
+return text;
+}
+}
+let customer1=new Customer(1,'swathi',savings,200);
+let customer2=new Customer(2,'jyothi',savings,300)
